@@ -2,16 +2,40 @@
     ViewData["Title"] = "Workshops";
 }
 
-<h2>Workshop RSVP</h2>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow border-end">
+                <div class="card-header bg-black text-white text-center">
+                    <h3 class="mb-0">Workshop RSVP</h3>
+                </div>
 
-<p>
-    Register for one of our upcoming workshops.
-</p>
+                <div class="card-body text-center bg-info">
+                    <p class="fs-5 mb-4">
+                        Register for any of our upcoming technical workshops
+                        and secure your spot today.
+                    </p>
 
-<a asp-controller="Workshops" asp-action="RsvpForm" class="btn btn-primary">
-    RSVP Now
-</a>
+                    <div class="d-flex justify-content-center gap-4">
+                        <a asp-controller="Workshops"
+                           asp-action="RsvpForm"
+                           class="btn btn-primary btn-lg">
+                            RSVP Form
+                        </a>
 
-<a asp-controller="Workshops" asp-action="Registrations" class="btn btn-secondary">
-    View Registrations
-</a>
+                        <a asp-controller="Workshops"
+                           asp-action="Registrations"
+                           class="btn btn-secondary btn-lg">
+                            View Registrations
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card-footer text-muted text-center bg-black text-white">
+                    <h4>Powered by ASP.NET Core MVC</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

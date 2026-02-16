@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|c:\\semester 6\\net enterprise\\workshop rsvp\\views\\workshops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|solutionrelative:views\\workshops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|c:\\semester 6\\net enterprise\\workshop rsvp\\controllers\\workshopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|solutionrelative:controllers\\workshopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|c:\\semester 6\\net enterprise\\workshop rsvp\\models\\rsvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|solutionrelative:models\\rsvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|c:\\semester 6\\net enterprise\\workshop rsvp\\views\\workshops\\rsvpform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|solutionrelative:views\\workshops\\rsvpform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|c:\\semester 6\\net enterprise\\workshop rsvp\\views\\workshops\\registrations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|solutionrelative:views\\workshops\\registrations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|c:\\semester 6\\net enterprise\\workshop rsvp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|c:\\semester 6\\net enterprise\\workshop rsvp\\views\\workshops\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|solutionrelative:views\\workshops\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registrations.cshtml",
+              "DocumentMoniker": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Workshops\\Registrations.cshtml",
+              "RelativeDocumentMoniker": "Views\\Workshops\\Registrations.cshtml",
+              "ToolTip": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Workshops\\Registrations.cshtml",
+              "RelativeToolTip": "Views\\Workshops\\Registrations.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T02:22:04.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T02:16:17.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Confirm.cshtml",
+              "DocumentMoniker": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Workshops\\Confirm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Workshops\\Confirm.cshtml",
+              "ToolTip": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Workshops\\Confirm.cshtml",
+              "RelativeToolTip": "Views\\Workshops\\Confirm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T02:13:21.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RsvpForm.cshtml",
+              "DocumentMoniker": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Workshops\\RsvpForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Workshops\\RsvpForm.cshtml",
+              "ToolTip": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Workshops\\RsvpForm.cshtml",
+              "RelativeToolTip": "Views\\Workshops\\RsvpForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T02:12:08.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Workshops\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Workshops\\Index.cshtml",
+              "ToolTip": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Views\\Workshops\\Index.cshtml",
+              "RelativeToolTip": "Views\\Workshops\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAvwCIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T02:11:10.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkshopsController.cs",
+              "DocumentMoniker": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Controllers\\WorkshopsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkshopsController.cs",
+              "ToolTip": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Controllers\\WorkshopsController.cs",
+              "RelativeToolTip": "Controllers\\WorkshopsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T02:05:29.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Rsvp.cs",
               "DocumentMoniker": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Models\\Rsvp.cs",
               "RelativeDocumentMoniker": "Models\\Rsvp.cs",
               "ToolTip": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Models\\Rsvp.cs",
               "RelativeToolTip": "Models\\Rsvp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T01:56:20.585Z",
               "EditorCaption": ""

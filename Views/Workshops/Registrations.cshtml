@@ -1,0 +1,44 @@
+﻿@model List<Workshop_RSVP.Models.Rsvp>
+
+<div class="container mt-5">
+    <<div class="card border-end shadow">
+        <div class="card-header bg-light text-black text-center">
+            <h4 class="mb-0">Workshop Registrations List</h4><br />
+            
+        
+
+
+            <table class="table table-hover table-bordered align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Workshop</th>
+                        <th>Accommodation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var rsvp in Model)
+                    {
+                        <tr>
+                            <td>@rsvp.FullName</td>
+                            <td>@rsvp.Email</td>
+                            <td>@rsvp.WorkshopTitle</td>
+                            <td>
+                                <span class="badge @(rsvp.NeedsAccommodation ? "bg-success" : "bg-danger")">
+                                    @(rsvp.NeedsAccommodation ? "Yes" : "No")
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="btn btn-success">
+                    Back to Workshops
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
