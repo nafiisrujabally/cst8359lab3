@@ -1,0 +1,44 @@
+﻿@model Workshop_RSVP.Models.Rsvp
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            
+            <div class="card border-success shadow-sm">
+                <div class="card-header bg-success text-black text-center">
+                    <h3 class="text-white mb-3">
+                        Registration Confirmed 🎉
+                    </h3>
+
+                    <p class="fw-bold">
+                        @ViewData["Message"]
+                    </p>
+
+                    <hr />
+
+                    <ul class="list-group text-start mb-4">
+                        <li class="list-group-item">
+                            <strong>Name:</strong> @Model.FullName
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Workshop:</strong> @Model.WorkshopTitle
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Accommodation:</strong>
+                            @(Model.NeedsAccommodation ? "Yes" : "No")
+                        </li>
+                    </ul>
+
+                    <div class="d-flex justify-content-center gap-3">
+                        <a asp-action="Index" class="btn btn-primary">
+                            Back to Workshops
+                        </a>
+                        <a asp-action="Registrations" class="btn btn-secondary">
+                            View All Registrations
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

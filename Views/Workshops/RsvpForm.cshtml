@@ -1,0 +1,54 @@
+﻿@model Workshop_RSVP.Models.Rsvp
+
+@{
+    ViewData["Title"] = "RSVP Form";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-primary shadow">
+                <div class="card-header bg-black text-white text-center">
+                    <h4 class="mb-0">Workshop Registration Form</h4>
+                </div>
+
+                <div class="card-body bg-info">
+                    <form asp-action="Confirm" method="post">
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Full Name</label>
+                            <input asp-for="FullName" class="form-control" placeholder="Enter your full name" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Email Address</label>
+                            <input asp-for="Email" class="form-control" placeholder="Enter your email address" required/>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Workshop Title</label>
+                            <select asp-for="WorkshopTitle" class="form-select">
+                                <option>Routing Basics</option>
+                                <option>EF Core Intro</option>
+                                <option>Razor Essentials</option>
+                                <option>ASP.NET Core MVC Fundamentals</option>
+                                <option>Azure App Service Deployment</option>
+                            </select>
+                        </div>
+
+                        <div class="form-check mb-4">
+                            <input asp-for="NeedsAccommodation" class="form-check-input" />
+                            <label class="form-check-label">
+                                Requires Accommodation
+                            </label>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                Submit RSVP
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
