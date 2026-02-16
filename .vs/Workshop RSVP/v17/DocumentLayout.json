@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|c:\\semester 6\\net enterprise\\workshop rsvp\\models\\rsvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FFB9FF-EE48-40EB-A3C7-E6E0DF8BE5D5}|Workshop RSVP.csproj|solutionrelative:models\\rsvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rsvp.cs",
+              "DocumentMoniker": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Models\\Rsvp.cs",
+              "RelativeDocumentMoniker": "Models\\Rsvp.cs",
+              "ToolTip": "C:\\Semester 6\\Net Enterprise\\Workshop RSVP\\Models\\Rsvp.cs",
+              "RelativeToolTip": "Models\\Rsvp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T01:56:20.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
