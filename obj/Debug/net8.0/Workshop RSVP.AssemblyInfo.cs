@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Workshop RSVP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fbaa723f96e1ecb40cf445a1aa24f57b8036cce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+113c4e20da1a01439744c5f09f8630eba7ca6e01")]
 [assembly: System.Reflection.AssemblyProductAttribute("Workshop RSVP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Workshop RSVP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

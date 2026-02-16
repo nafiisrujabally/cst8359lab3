@@ -36,6 +36,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Semester 6/Net Enterprise/Workshop RSVP/Views/Workshops/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya3Nob3BzXENvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Semester 6/Net Enterprise/Workshop RSVP/Views/Workshops/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya3Nob3BzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Semester 6/Net Enterprise/Workshop RSVP/Views/Workshops/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya3Nob3BzXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Semester 6/Net Enterprise/Workshop RSVP/Views/Workshops/RsvpForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya3Nob3BzXFJzdnBGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Semester 6/Net Enterprise/Workshop RSVP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

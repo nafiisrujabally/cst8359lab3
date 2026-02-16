@@ -1,0 +1,18 @@
+﻿@model Workshop_RSVP.Models.Rsvp
+
+<h2>Confirmation</h2>
+
+<p><strong>@ViewData["Message"]</strong></p>
+
+<ul>
+    <li>Name: @Model.FullName</li>
+    <li>Workshop: @Model.WorkshopTitle</li>
+    <li>
+        Accommodation:
+        @(Model.NeedsAccommodation ? "Yes" : "No")
+    </li>
+</ul>
+
+<a asp-action="Index" class="btn btn-primary">
+    Back to Workshops
+</a>
